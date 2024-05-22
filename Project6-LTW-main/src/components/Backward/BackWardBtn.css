@@ -1,0 +1,15 @@
+.backward{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 5px;
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.backward:hover{
+    color: #FEB941;
+    cursor: pointer;
+    font-size: 1.75rem;
+}

@@ -1,0 +1,48 @@
+.home-content{
+    display: flex;
+    height: calc(100vh - 88px);
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-h1{
+    font-size: 3.5rem;
+}
+
+.home-h2{
+    font-size: 2rem;
+}
+
+.home-content > span{
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 530px) {
+    .home-h1{
+        font-size: 1.5rem;
+    }
+
+    .home-h2{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 531px) and (max-width: 768px) {
+    .home-h1{
+        font-size: 1.75rem;
+    }
+
+    .home-h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .home-h1{
+        font-size: 2.5rem;
+    }
+
+    .home-h2{
+        font-size: 1.75rem;
+    }
+  }
